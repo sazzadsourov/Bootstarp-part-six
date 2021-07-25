@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--  CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>bootstarp class 15
+  </title>
+</head>
+
+<body>
+  <!-- navs and tabs -->
+  <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3 ">navs and tabs one</h2>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="nav-item"><a class="nav-link " data-bs-toggle="tab" href="#home1">Home</a></li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#about1" href="#">About</a></li>
+      <li class="nav-item "><a class="nav-link active" data-bs-toggle="tab" data-bs-target="#blog1" href="#">Blog</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" data-bs-target="#contact1" href="#">Contact</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade " id="home1"><strong class="text-danger fs-3">Home</strong> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Distinctio accusantium repellendus minima vitae tenetur exercitationem molestiae
+        unde, officia error ducimus hic doloremque? Necessitatibus similique eveniet rerum quisquam, quam eum nobis!
+      </div>
+
+      <div class="tab-pane fade " id="about1"><strong class="text-danger fs-3">About</strong> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Distinctio accusantium repellendus minima vitae tenetur exercitationem molestiae unde,
+        officia error ducimus hic doloremque? Necessitatibus similique eveniet rerum quisquam,
+        quam eum nobis!</div>
+
+      <div class="tab-pane fade show active " id="blog1"><strong class="text-danger fs-3">Blog</strong> Lorem ipsum
+        dolor sit amet consectetur adipisicing elit.
+        Distinctio accusantium repellendus minima vitae tenetur exercitationem molestiae unde,
+        officia error ducimus hic doloremque? Necessitatibus similique eveniet rerum quisquam,
+        quam eum nobis!</div>
+
+      <div class="tab-pane fade " id="contact1"><strong class="text-danger fs-3">Contact</strong> Lorem ipsum dolor sit
+        amet consectetur adipisicing elit.
+        Distinctio accusantium repellendus minima vitae tenetur exercitationem molestiae unde,
+        officia error ducimus hic doloremque? Necessitatibus similique eveniet rerum quisquam,
+        quam eum nobis!</div>
+    </div>
+
+    <!-- other navs and tabs -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">navs and tabs two</h2>
+    <div class="d-flex align-items-start mt-4">
+      <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+          type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+          type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages"
+          type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings"
+          type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">home
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia facilis ipsa dolore, minus aliquam nobis
+          mollitia alias quasi officiis!</div>
+        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">PROFILE
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eveniet dicta ratione nihil error, mollitia nulla
+          aperiam qui natus iste officia harum, et commodi corrupti facere quis ab! Vel quibusdam perspiciatis vitae
+          eaque voluptate quia temporibus vero odio exercitationem facere.</div>
+        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">message
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius odio et enim iusto excepturi veritatis dolores
+          minus culpa natus iure, fuga sed labore illo quas exercitationem repellat saepe numquam voluptas doloribus
+          harum corporis mollitia, quam cupiditate neque. Vel nulla laboriosam fuga assumenda, laborum eveniet atque.
+        </div>
+        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem
+          ipsum dolor, sit amet consectetur adipisicing elit. Aliquam illum at quam animi id! Illum tempore
+          necessitatibus nisi in suscipit dolores fugiat dolorum pariatur beatae, veniam, repudiandae id minus amet
+          molestiae dignissimos expedita nulla ad eaque reiciendis. Dolore, sint officia tenetur et temporibus sequi
+          animi modi a sit quod adipisci.</div>
+      </div>
+    </div>
+    <!-- offcanvas -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">offcanvas</h2>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1"
+      aria-controls="offcanvas1">
+      Button with data-bs-target
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1" aria-labelledby="offcanvasleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, consequuntur quaerat. Libero at quidem neque
+          sed ipsa consequatur ea enim culpa, esse blanditiis! Voluptate velit cupiditate quos ratione quia facere
+          consequuntur, id veniam repellat perspiciatis voluptatem temporibus minus, magnam dolorum.
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-bs-toggle="dropdown">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- pagenation -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">pagination</h2>
+    <nav class="pagi  mt-4">
+      <ul class="pagination justify-content-center ">
+        <li class="page-item"><a href="#" class="page-link bg-primary text-white">Previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link bg-primary text-white">Next</a></li>
+      </ul>
+    </nav>
+    <!-- popover -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">popover</h2>
+    <div class="pop">
+      <button class="btn btn-secondary" type="button" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="top" data-bs-content="top popover">Top Popover</button>
+      <button class="btn btn-secondary" type="button" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="left" data-bs-content="left 
+popover">left Popover</button>
+      <button class="btn btn-secondary" type="button" data-bs-container="body" data-bs-toggle="popover"
+        data-bs-placement="bottom" data-bs-content="bottom 
+popover">bottom Popover</button>
+      <button class="btn btn-secondary mt-3" data-bs-toggle="popover" data-bs-placement="right"
+        data-bs-content="Right popover">right popover</button>
+    </div>
+    <!-- tooltips -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">tooltips</h2>
+    <div class="mt-5">
+      <button class="btn btn-primary" type="button" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="Top tooltip"> top tooltip</button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="right"
+        title="right tooltip">right tooltip</button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom"
+        title="bottom tooltip">bottom tooltip</button>
+      <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="left"
+        title="left tooltip">left tooltip</button>
+    </div>
+
+    <!-- progress -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">progress</h2>
+    <div class="progress mt-4">
+      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+        aria-valuemax="100">HTML</div>
+    </div>
+    <div class="progress mt-4">
+      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+        aria-valuemax="100">CSS</div>
+    </div>
+    <div class="progress mt-4">
+      <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">Bootstarp</div>
+    </div>
+
+
+    <!-- nab bar -->
+    <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">nav bar</h2>
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark  ">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand ">
+          <img src="img/sourov_logo.png" class="logo1" alt="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_t"
+          aria-controls="nav_t" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav_t">
+          <ul class="navbar-nav m-auto ">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://sazzadsourov.github.io/Notary/"
+                target="_blank">Contact</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                href="#">Blog</a>
+              <ul class="dropdown-menu bg-danger ">
+                <li class="dropdown-item"><a class="nav-link text-dark ms-3 " href="#">Blog-1</a></li>
+                <li class="dropdown-item"><a class="nav-link text-dark ms-3" href="#">Blog-1</a></li>
+                <li class="dropdown-item"><a class="nav-link text-dark ms-3" href="#">Blog-1</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li class="dropdown-item"><a class="nav-link text-dark ms-3" href="#">Blog-1</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+          </ul>
+
+          <form action="" class="d-flex">
+            <input type="search" class="form-control me-2" name="ser" id="ser" placeholder="search">
+            <button class="btn btn-danger" type="submit">search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel -->
+    <section class="slider mb-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- slider -->
+          <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">carousel slide one</h2>
+
+          <div id="carouselONE" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+            <div class="carousel-indicators c_indi1">
+              <button type="button" data-bs-target="#carouselONE" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselONE" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselONE" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselONE" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/photo (1).jpg" class="d-block w-100 sh" alt="image1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/photo (2).jpg" class="d-block w-100 sh" alt="image2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/photo (3).jpg" class="d-block w-100 sh" alt="image3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/photo (4).jpg" class="d-block w-100 sh" alt="image4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev c_prev" type="button" data-bs-target="#carouselONE"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next c_next" type="button" data-bs-target="#carouselONE"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- slider end -->
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- anather section  -->
+  <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">carousel slide two</h2>
+
+  <section class="banner">
+    <div class="container">
+      <div class="slider">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+          <div id="carouseltwo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"
+            data-bs-pause="hover">
+            <div class="carousel-indicators carousel_ind2">
+              <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouseltwo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="slider1">
+                  <h2>Lorem ipsum dolor, sit amet </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita doloribus fugit iure quasi
+                    reiciendis et amet natus esse!</p>
+                  <button type="button" class="btn btn-primary">click me</button>
+                </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="slider1">
+                  <h2>Lorem ipsum dolor, sit amet </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Expedita doloribus fugit iure quasi
+                    reiciendis et amet natus esse!</p>
+                  <button type="button" class="btn btn-primary">click me</button>
+                </div>
+              </div>
+
+              <div class="carousel-item ">
+                <div class="slider1">
+                  <h2>Lorem ipsum dolor, sit amet </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Expedita doloribus fugit iure quasi
+                    reiciendis et amet natus esse!</p>
+                  <button type="button" class="btn btn-primary">click me</button>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev cprev" type="button" data-bs-target="#carouseltwo"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouseltwo" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- slide 3 -->
+  <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">carousel slide three</h2>
+  <section class="slide3 mt-4 pb-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="carousel3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+            data-bs-pause="hover">
+            <div class="carousel-indicators ind_3">
+              <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item car_i active">
+                <h2 class="fs-1">sazzad sourov</h2>
+                <p class="pb-2 ">full stack web developer</p>
+                <img src="img/sazzadsourov.jpg" class="rounded-circle s_img mb" alt="sourov image">
+              </div>
+              <div class="carousel-item car_i ">
+                <h2 class="fs-1">sazzad sourov</h2>
+                <p class="pb-2 ">full stack web developer</p>
+                <img src="img/sazzadsourov.jpg" class="rounded-circle s_img mb" alt="sourov image">
+              </div>
+              <div class="carousel-item car_i ">
+                <h2 class="fs-1">sazzad sourov</h2>
+                <p class="pb-2 ">full stack web developer</p>
+                <img src="img/sazzadsourov.jpg" class="rounded-circle s_img mb" alt="sourov image">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+              <i class="fas fa-angle-double-left  f_icon" aria-hidden="true"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carousel3" data-bs-slide="next">
+              <i class="fas fa-angle-double-right fa-3x f_icon" aria-hidden="true"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- modal -->
+  <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3">modal</h2>
+  <section class="modal1 mt-5">
+    <div class="container">
+      <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#mymodal"> click here</button>
+      <div class="modal fade " id="mymodal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title"> modal title</h2>
+              <button class="btn-close-white" data-bs-dismiss="modal"> &times; </button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate recusandae ratione laboriosam quos,
+              repellendus aspernatur minus voluptates voluptas eaque hic dolore fugiat et maiores natus?
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+              <button class="btn btn-info">save change</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- spinner -->
+  <h2 class="bg-info text-center text-black fw-700 display-6 mlr_300  my-3 py-3"> spinner</h2>
+
+  <div class="text-center">
+    <button class="btn btn-danger me-3" type="button m">
+      <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+      <span class="visually-hidden">Loading...</span>
+    </button>
+    <button class="btn btn-info me-3" type="button ">
+      <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+    <div class="spinner-border text-primary me-3" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-secondary me-3" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <button class="btn btn-primary me-3" type="button" role="status">
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      loading
+    </button>
+    <button class="btn btn-primary me-3" type="button" role="status">
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      loading
+    </button>
+  </div>
+  <h2 class="bg-danger text-center text-black fw-700 display-6   my-3 py-3"> <a href="scrollspy.html"
+      class=" mb-5 text-decoration-none ">click here to show <span class="text-info text_style ">Scrollspy</span></a>
+  </h2>
+
+
+  <!-- JS -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

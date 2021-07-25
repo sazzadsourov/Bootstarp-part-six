@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo1 {
+  width: 100px;
+  height: 90px;
+}
+.sh {
+  height: 600px;
+}
+
+.c_prev {
+  left: 86%;
+  bottom: 5% !important;
+}
+
+.c_prev,
+.c_next {
+  top: 80%;
+  width: 6%;
+}
+
+.c_next {
+  right: 3%;
+  bottom: 5% !important ;
+}
+
+.c_indi1 {
+  left: 82%;
+  bottom: 50%;
+  display: inline-grid;
+}
+
+.c_indi1 [data-bs-target] {
+  width: 15px;
+  height: 15px;
+}
+
+.banner {
+  background-image: url(../img/istockphoto-108327817-612x612.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider1 {
+  background-color: #916246;
+  color: white;
+  padding: 80px;
+}
+.slider1 h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.slider1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.slider1 button {
+  margin-bottom: 80px;
+}
+
+.carousel_ind2 [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.carousel_ind2 {
+  bottom: -35px;
+}
+
+.slide3 {
+  background-color: #0d0442;
+}
+.car_i {
+  padding: 5%;
+  text-align: center;
+  color: white;
+}
+.s_img {
+  width: 150px;
+  height: 150px;
+}
+.ind_3 {
+  bottom: -15px;
+}
+.f_icon {
+  font-size: 50px;
+  color: red;
+}
+.mlr_300{
+  margin-left: 30%;
+  margin-right: 20%;	
+}
+.text_style{
+  text-decoration: none;
+  border-bottom: 4px solid cyan;
+}
+.fo_s{
+    padding-top: 60px;
+}
